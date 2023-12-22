@@ -1,0 +1,160 @@
+/* resets */
+html,
+body,
+div,
+ul {
+    margin: initial;
+    padding: initial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: initial;
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+
+/* variable */
+
+.star {
+    width: 21px;
+    height: 21px;
+}
+
+
+
+
+
+
+:root {
+    font-size: 10px;
+    font-family: pretendard;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.m-wrapper {
+    box-sizing: border-box;
+    width: 474px;
+    height: 1024px;
+    margin: 0 auto;
+    background: white;
+}
+
+header {
+    display: flex;
+    padding: 21px 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.cs-page {
+    margin-top: 30px;
+}
+
+.middle-bar-button {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px #F1F1F1 solid;
+}
+
+.middle-bar-button button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: regular;
+    border-bottom: 3px #1C58D9 solid;
+
+}
+
+.container-contents {
+    padding: 15px 25px;
+    height: 100%;
+    border-bottom: 2px #DDDDDD solid;
+}
+
+
+.contents-title {
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contents-main {
+    display: flex;
+    margin-top: 5px;
+    gap: 21px;
+
+}
+
+.contents-main-option {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.option1 {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.option2 {
+    font-size: 12px;
+}
+
+.count {
+    color: #1C58D9;
+}
+
+.option3 {
+    font-size: 12px;
+
+}
+
+.btm-nav-border {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.boder-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.boder-container button {
+    background-color: white;
+    border: none;
+}
